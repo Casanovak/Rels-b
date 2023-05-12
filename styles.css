@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+*{
+    font-family: 'Shantell Sans', cursive;
+}
+
+body {
+    background-color: hwb(48 94% 0% / 0.829);
+
+}
+.Menu-navegación{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color:#BEB4DD;
+}
+.Menu-navegación img{
+    width: 8%;
+    height: auto;
+    margin: 10px 0px 10px 30px;
+}
+.Menu-navegación ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 30px 0px 0px;
+    list-style: none;
+}
+.Menu-navegación li{
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.Menu-navegación li:hover{
+    color: cadetblue;
+}
+.metahumanos-intro{
+    margin: 20px;
+    text-align:center;
+}
+    h1{
+        color: #9D6490;
+        text-align:center;
+        font-size: 40px;
+        margin: 10px 10px 10px 30px
+}
+    .encabezado {
+        color: #788fc0;
+        text-align:center;
+        font-size: 50px;
+        margin: 10px 10px 10px 30px
+}
+
+    p{
+        color:darkolivegreen;
+        font-size: 25px;
+        
+    }
+
+
+.img-metahumanos-intro{
+    border-radius: 50px;
+
+    width: 1000px;
+
+    height: 500px;
+}
+/*Estilos para la sección de discos*/
+
+.rels-discos{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    background-color: hwb(48 94% 0% / 0.829);
+}
+
+.rels-discos img{
+    width: 300px;
+    height: 300px;
+}
+
+.rels-discos img:hover {
+
+width: 350px;
+height: 350px;
+}
+
+.Galeria-disco{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 13px;
+    }
